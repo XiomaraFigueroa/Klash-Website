@@ -1,0 +1,324 @@
+/*-- Typography --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Raleway&family=Roboto&display=swap');
+@import url('https://db.onlinewebfonts.com/c/08af35c7d21874c31c8a65e5ca8df3de?family=AzukiOTW00-Medium');
+
+
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+a {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+    margin-right: 0.9375rem;
+}
+
+.klash{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    bottom: -5rem;
+    font-size: 5rem;
+    font-family: 'Azuki', sans-serif;
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    height: 63rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* welcome section*/
+
+.welcome-section {
+   padding-top: 5rem;
+}
+.meijin {
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.welcome-klash {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 1.6rem;
+}
+
+.welcome-info {
+    font-size: 0.875rem; 
+}
+
+#learn-more {
+    margin-top: 1rem;
+    background-color: #BD0909;
+    border: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+    font-family: 'Raleway', sans-serif; 
+    
+}
+
+
+/*-- join now section --*/
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Images/Join\ Us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.join{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.join-info{
+    width: 80%;
+    color: #fff;
+    font-size: 0.875rem;
+    margin-top: 1.5rem;
+}
+
+/*-- join now button --*/
+#join-now {
+    background-color: #BD0909;
+    border: none;
+    font-family: 'Raleway', sans-serif; 
+    margin-top: -4rem;
+
+}
+
+.join-section {
+   padding-bottom: 5rem;
+}
+
+/*-- promoters --*/
+.promoters-section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.promoters-title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+}
+
+.promoters{
+    border: none;
+}
+
+/*-- rated events --*/
+
+.rated-events-section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.rated-events-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+}
+
+
+.rated {
+    border: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-title{
+    font-size: 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    
+}
+.rated-title {
+    margin-bottom: 2rem;
+}
+.rated-img{
+    object-fit: contain;
+    height: 14.063rem;
+}
+
+.card-body{
+    border-top: 1px solid #E1E1E1;
+    font-size: 0.875rem;
+}
+
+.card-link {
+    color: #BD0909;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+/*== about us --*/
+.about-us-img{
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/About\ Us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.about-us{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    font-size: 5rem;
+    font-family: 'Azuki', sans-serif;
+}
+
+.our-mission-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.our-mission {
+    margin-bottom: 2rem;
+}
+
+.oskf-group {
+    object-fit: cover;
+    width: 100%;
+    margin-top: 5rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.our-info {
+   
+    font-size: 0.875rem; 
+}
+
+/*-- judges section --*/
+.judges-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.judges-img {
+    object-fit: cover;
+    object-position: top;
+    height: 25.9375rem;
+}
+
+.judges-info {
+    text-align: center;
+}
+.judges{
+    border: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.judges-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+}
+
+/*-- contact us --*/
+.contact-us-img {
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/Contact\ Us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-us {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    font-size: 5rem;
+    font-family: 'Azuki', sans-serif;
+}
+
+.contact-form-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact-form {
+    width: 100%;
+    border: 2px solid #E1E1E1;
+    padding: 2rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact-title {
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 2rem;
+}
+.form-btn {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #BD0909;
+    border: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+    font-family: 'Raleway', sans-serif; 
+}
+
+.quick-contact {
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+.our-location {
+    padding-bottom: 5rem;
+}
+.our-location-img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 25rem;
+}
+
+.location{
+    padding: 2rem;
+    border: 2px solid #E1E1E1;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.location-title {
+    font-family: 'Roboto',sans-serif;
+}
+/* -- footer --*/
+footer {
+    overflow: auto;
+    background-color: #000; 
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    float: right;
+    padding: 1rem;
+    color: #fff;
+    margin-right: 15rem;
+}
+
