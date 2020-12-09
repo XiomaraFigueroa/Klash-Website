@@ -38,7 +38,7 @@ a {
     display: flex;
     justify-content: center;
     height: 63rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/Home.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/Home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -77,15 +77,12 @@ a {
 
 /*-- join now section --*/
 .jumbotron{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/Join\ Us.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Images/Join\ Us.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.join-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
+
 .join{
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
@@ -177,10 +174,11 @@ a {
     display: flex;
     justify-content: center;
     height: 25rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/About\ Us.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/About\ Us.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 .about-us{
@@ -247,7 +245,7 @@ a {
     display: flex;
     justify-content: center;
     height: 25rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/Contact\ Us.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/Contact\ Us.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -299,7 +297,7 @@ a {
     padding-bottom: 5rem;
 }
 .our-location-img {
-    background-image: url(../images/Our\ Location.png);
+    background-image: url(../Images/Our\ Location.png);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 25rem;
