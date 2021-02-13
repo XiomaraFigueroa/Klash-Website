@@ -67,7 +67,7 @@ a {
 
 #learn-more {
     margin-top: 1rem;
-    background-color: #BD0909;
+    background-color: #A71B06;
     border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
     font-family: 'Raleway', sans-serif; 
@@ -97,7 +97,7 @@ a {
 
 /*-- join now button --*/
 #join-now {
-    background-color: #BD0909;
+    background-color: #A71B06;
     border: none;
     font-family: 'Raleway', sans-serif; 
     margin-top: -4rem;
@@ -164,7 +164,7 @@ a {
 }
 
 .card-link {
-    color: #BD0909;
+    color: #A71B06;
     font-weight: bold;
     margin-top: 2rem;
 }
@@ -281,7 +281,7 @@ a {
 .form-btn {
     width: 100%;
     margin-top: 1rem;
-    background-color: #BD0909;
+    background-color: #A71B06;
     border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
     font-family: 'Raleway', sans-serif; 
